@@ -3,5 +3,9 @@ head
 	title
 		Heroku Test
 body
-	h1 Hello World
-	h2 and HELLO HEROKU!!!
+	#dbdata
+		each team in dbinfo
+			p.team
+				span=team.city
+				|   
+				span=team.team
